@@ -15,7 +15,7 @@ const App = (props) => {
         <div>
           <Grid container spacing={2}>
             <Grid item xs={12}>
-              <TopBar />
+              <TopBar/>
             </Grid>
             <div className="main-topbar-buffer" />
             <Grid item sm={3}>
@@ -34,7 +34,7 @@ const App = (props) => {
                       path="/photos/:userId"
                       element = {<UserPhotos />}
                   />
-                  <Route path="/users" element={<UserList />} />
+                  <Route index path="/users" element={<UserList />} />
                 </Routes>
               </Paper>
             </Grid>
