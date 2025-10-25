@@ -1,0 +1,12 @@
+.main-topbar-buffer {
+  margin-top: 70px;
+}
+
+.main-grid-item-l {
+  height: calc(100vh - 85px);
+  padding: 10px;
+}
+.main-grid-item-r {
+  min-height: calc(100vh - 85px);
+  padding: 10px;
+}
